@@ -1,0 +1,167 @@
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+/******img******/
+
+.item-content .img{
+    width: 45vw;
+}
+
+/*******about******/
+
+.about{
+    padding: 0.7rem 1.3rem;
+}
+
+.title{
+    font-size: 2rem;
+    color: white;
+    margin: 2rem 0;
+    line-height: 2.5rem;
+}
+
+.text{
+    line-height: 1.4rem;
+    font-size: 1.3rem;
+    color: white;
+    padding-bottom: 2rem;
+
+}
+
+.button{
+    font-size: 1.1rem;
+    width: 200px;
+    background-color: white;
+    border: 0;
+    border-radius: 30px;
+    padding: 0.7rem 2rem;
+    color: hsl(257, 40%, 49%);
+    cursor: pointer;
+    box-shadow: 0 0 0.5em black;
+}
+
+.item-content{
+    padding: 0.9rem;
+}
+
+.button:hover{
+    
+    background-color: hsl(300, 69%, 71%);
+}
+
+ @media screen and (max-width: 1024px) {
+    .about{
+        padding-left: 1rem;
+    }
+    
+    .title{
+        font-size: 2rem;
+        margin: 1rem 0;
+        line-height: 2.2rem;
+    }
+    
+    .text{
+        line-height: 1.4rem;
+        font-size: 1.1rem;
+        padding-bottom: 1rem;
+    
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .item-content .img{
+        width: 40vw;
+    }
+
+    .about{
+        padding-left: 1rem;
+    }
+    
+    .title{
+        font-size: 1.5rem;
+        margin: 1rem 0;
+        line-height: 2rem;
+    }
+    
+    .text{
+        line-height: 1.2rem;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .item-content .img{
+        width: 40vw;
+    }
+
+    .about{
+        width: 50%;
+        padding-left: 0;
+    }
+    
+    .title{
+        font-size: 1.4rem;
+        margin-bottom: 0.5;
+        line-height: 1.6rem;
+    }
+    
+    .text{
+        line-height: 1.1rem;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .content{
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-between;
+    }
+    
+    /******img******/
+    
+    .item-content .img{
+        width: 80vw;
+    }
+    
+    /*******about******/
+    
+    .about{
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+    
+    .title{
+        font-size: 3rem;
+        margin: 2rem 0;
+        line-height: 4rem;
+    }
+    
+    .text{
+        text-align: center;
+        line-height: 2.5rem;
+        font-size: 2rem;
+        padding-bottom: 2rem;
+    
+    }
+    
+    .button{
+        font-size: 1.3rem;
+        width: 300px;
+    }
+    
+    .item-content{
+        padding: 2rem;
+    }
+    
+    .button:hover{
+        
+        background-color: hsl(300, 69%, 71%);
+    }
+}

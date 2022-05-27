@@ -1,0 +1,23 @@
+body{
+    background-image: url('../images/bg-desktop.svg');
+    background-color: hsl(257, 40%, 49%);
+    background-repeat: no-repeat;
+    font-family: 'Poppins',sans-serif;
+    height: auto;
+}
+
+.container{
+    padding: 0 80px;
+}
+
+@media screen and (max-width: 1024px){
+    .container{
+        padding: 0 30px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        padding: 0;
+    }
+}
