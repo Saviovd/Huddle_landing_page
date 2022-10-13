@@ -14,14 +14,14 @@
 /*******about******/
 
 .about{
-    padding: 0.7rem 1.3rem;
+    width: 50%;
 }
 
 .title{
-    font-size: 2rem;
+    font-size: 3rem;
     color: white;
     margin: 2rem 0;
-    line-height: 2.5rem;
+    line-height: 3rem;
 }
 
 .text{
@@ -53,69 +53,6 @@
     background-color: hsl(300, 69%, 71%);
 }
 
- @media screen and (max-width: 1024px) {
-    .about{
-        padding-left: 1rem;
-    }
-    
-    .title{
-        font-size: 2rem;
-        margin: 1rem 0;
-        line-height: 2.2rem;
-    }
-    
-    .text{
-        line-height: 1.4rem;
-        font-size: 1.1rem;
-        padding-bottom: 1rem;
-    
-    }
-}
-
-
-@media screen and (max-width: 1024px) {
-    .item-content .img{
-        width: 40vw;
-    }
-
-    .about{
-        padding-left: 1rem;
-    }
-    
-    .title{
-        font-size: 1.5rem;
-        margin: 1rem 0;
-        line-height: 2rem;
-    }
-    
-    .text{
-        line-height: 1.2rem;
-        font-size: 1rem;
-    }
-}
-
-@media screen and (max-width: 850px){
-    .item-content .img{
-        width: 40vw;
-    }
-
-    .about{
-        width: 50%;
-        padding-left: 0;
-    }
-    
-    .title{
-        font-size: 1.4rem;
-        margin-bottom: 0.5;
-        line-height: 1.6rem;
-    }
-    
-    .text{
-        line-height: 1.1rem;
-        font-size: 1rem;
-    }
-}
-
 @media screen and (max-width: 768px){
     .content{
         flex-direction: column;
@@ -138,15 +75,15 @@
     }
     
     .title{
-        font-size: 3rem;
+        font-size: 2rem;
         margin: 2rem 0;
         line-height: 4rem;
     }
     
     .text{
         text-align: center;
-        line-height: 2.5rem;
-        font-size: 2rem;
+        line-height: 2rem;
+        font-size: 1.7rem;
         padding-bottom: 2rem;
     
     }
@@ -165,3 +102,4 @@
         background-color: hsl(300, 69%, 71%);
     }
 }
+
